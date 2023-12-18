@@ -11,20 +11,20 @@ const Footer = () => {
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
                 <img src="images/newsletter.png" alt="newsletter" />
-                <h2 className="text-white mb-0">Sing Up for Newsletter</h2>
+                <h2 className="text-white mb-0">Sing Up for News</h2>
               </div>
             </div>
             <div className="col-7">
-              <div class="input-group">
+              <div className="input-group">
                 <input
                   type="text"
-                  class="form-control py-1"
+                  className="form-control py-1"
                   placeholder="Your E-mail Address"
                   aria-label="Your E-mail Address"
                   aria-describedby="basic-addon2"
                 />
-                <span class="input-group-text p-2" id="basic-addon2">
-                  Subscribe
+                <span className="input-group-text p-2" id="basic-addon2">
+                  <Link className='button' to="/">Subscribe</Link>
                 </span>
               </div>
             </div>

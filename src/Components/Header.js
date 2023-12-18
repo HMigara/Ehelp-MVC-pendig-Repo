@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink,Link } from 'react-router-dom'
 import {BsSearch} from 'react-icons/bs'
+import "./Responcive.css";
 
 const Header = () => {
   return (
@@ -34,15 +35,15 @@ const Header = () => {
               </h2>
             </div>
             <div className="col-5">
-              <div class="input-group">
+              <div className="input-group">
                 <input
                   type="text"
-                  class="form-control py-2"
+                  className="form-control py-2"
                   placeholder="Search Product Here"
                   aria-label="Search Product Here"
                   aria-describedby="basic-addon2"
                 />
-                <span class="input-group-text p-3" id="basic-addon2">
+                <span className="input-group-text p-3" id="basic-addon2">
                   <BsSearch className="fs-6" />
                 </span>
               </div>
@@ -94,7 +95,7 @@ const Header = () => {
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-30">
                 <div>
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <button
                       className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
                       type="button"
@@ -106,7 +107,7 @@ const Header = () => {
                         Shop Categories
                       </span>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                       <li>
                         <Link className="dropdown-item text-white" to="#">
                           Action
@@ -128,11 +129,11 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink>Our Store</NavLink>
+                    <NavLink to="/store">Our Store</NavLink>
                     <NavLink to="/">Products</NavLink>
-                    <NavLink>Services</NavLink>
-                    <NavLink>jobs</NavLink>
-                    <NavLink>Blogs</NavLink>
+                    <NavLink to="/">Services</NavLink>
+                    <NavLink to="/">jobs</NavLink>
+                    <NavLink to="/blog">Blogs</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>
                 </div>

@@ -1,0 +1,111 @@
+/* respon */
+/* @media screen and (max-width:700px) {
+    .headre-top-strip {
+        display: none;
+    }
+
+    .main-banne {
+        order: 1;
+    }
+
+    .main-bannet-content {
+        width: 100%;
+    }
+
+    .my-banner-set {
+        width: 100%;
+        order: 2;
+        padding: 20px;
+        margin-top: 5%;
+    }
+
+
+
+} */
+
+/* Styles for screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+    
+    .home-wrapper-1{
+        width: 100%;
+    }
+    .header-upper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-2 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .col-5 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .hedder-upper-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .home-wrapper-1 .col-6 {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    
+        .my-banner-set {
+            flex-direction: column;
+        }
+    
+        .my-banner-set .small-banne {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+         .servies {
+             flex-direction: column;
+         }
+        
+         .servies>div {
+             width: 100%;
+             margin-bottom: 15px;
+         }
+                 .categories {
+                     flex-direction: column;
+                 }
+        
+                 .categories>div {
+                     width: 100%;
+                     margin-bottom: 15px;
+                 }
+        
+                 .col-3 {
+                     width: 100%;
+                     margin-bottom: 15px;
+                 }
+        
+                 .col-6 {
+                     width: 100%;
+                     margin-bottom: 15px;
+                 }
+                   .footer-links {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .footer-links a {
+                    margin-bottom: 10px;
+                }
+
+                                   
+}
+
+/* Styles for screens between 576px and 767.98px (small devices) */
+
+
+
+
+
+
+

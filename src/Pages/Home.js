@@ -4,11 +4,14 @@ import Marquee from "react-fast-marquee";
 import { BlogCard } from '../Components/BlogCard';
 import ProductCard from '../Components/ProductCard';
 import SpecialProduct from '../Components/SpecialProduct';
+import Meta from "../Components/Meta";
 
 
 export const Home = () => {
   return (
     <>
+      <Meta title="Home" />
+
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
           <div className="row">
@@ -27,8 +30,8 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6">
-              <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
+            <div className="my-banner-set col-6">
+              <div className=" d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div className="small-banne position-relative">
                   <img
                     src="images/catbanner-01.jpg"
@@ -244,7 +247,7 @@ export const Home = () => {
                 />
                 <div className="famous-content position-absolute">
                   <h5>Big screen</h5>
-                  <h6>Smart watch series 7</h6>
+                  <h6>iWatch series 7</h6>
                   <p>$50 monthly installments</p>
                 </div>
               </div>
@@ -267,11 +270,7 @@ export const Home = () => {
 
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img
-                  src="images/ipho.jpg"
-                  className="img-fluid"
-                  alt="laptop"
-                />
+                <img src="images/ipho.jpg" className="img-fluid" alt="laptop" />
                 <div className="famous-content position-absolute">
                   <h5 className="text-dark">Cinemati video</h5>
                   <h6 className="text-dark">iPhone 13 pro</h6>
@@ -294,8 +293,6 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </section>
@@ -383,10 +380,23 @@ export const Home = () => {
               <h3 className="section-headding">Our Lates Blogs</h3>
             </div>
 
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+            <div className="row">
+              <div className="col-3">
+                <BlogCard />
+              </div>
+
+              <div className="col-3">
+                <BlogCard />
+              </div>
+
+              <div className="col-3">
+                <BlogCard />
+              </div>
+
+              <div className="col-3">
+                <BlogCard />
+              </div>
+            </div>
           </div>
         </div>
       </section>
