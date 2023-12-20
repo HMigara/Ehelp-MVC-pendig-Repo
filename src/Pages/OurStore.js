@@ -3,6 +3,7 @@ import BreadCrum from '../Components/BreadCrum'
 import Meta from '../Components/Meta';
 import ReactStars from "react-rating-stars-component";
 import ProductCard from "../Components/ProductCard";
+import Colors from '../Components/Colors';
 
 
 const OurStore = () => {
@@ -84,26 +85,7 @@ const OurStore = () => {
                   <h5 className="sub-title">Colors</h5>
                   <div>
                     <div>
-                      <ul className="colors ps-0">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
+                      <Colors />
                     </div>
                   </div>
 
