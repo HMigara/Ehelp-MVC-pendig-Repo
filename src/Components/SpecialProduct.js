@@ -33,9 +33,9 @@ const SpecialProduct = () => {
                 <b>10 </b>days
               </p>
               <div className="d-flex gap-10 align-items-center">
-                <span className="badge rounded-circle p-3 bg-danger">1</span>:
-                <span className="badge rounded-circle p-3 bg-danger">1</span>:
-                <span className="badge rounded-circle p-3 bg-danger">1</span>
+                <span className="badge rounded-circle p-3 bg-danger">8</span>:
+                <span className="badge rounded-circle p-3 bg-danger">12</span>:
+                <span className="badge rounded-circle p-3 bg-danger">45</span>
               </div>
             </div>
             <div className="prod-count my-3">
@@ -50,8 +50,18 @@ const SpecialProduct = () => {
                   aria-valuemax="100"
                 ></div>
               </div>
+
+              {/* <ReactStars
+                count={5}
+                size={24}
+                value={3}
+                edit={false}
+                activeColor="#ffd700"
+              /> */}
             </div>
-            <Link className='button' to="/">View</Link>
+            <Link className="button" to="/">
+              View
+            </Link>
           </div>
         </div>
       </div>

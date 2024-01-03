@@ -24,7 +24,9 @@ const Footer = () => {
                   aria-describedby="basic-addon2"
                 />
                 <span className="input-group-text p-2" id="basic-addon2">
-                  <Link className='button' to="/">Subscribe</Link>
+                  <Link className="button" to="/">
+                    Subscribe
+                  </Link>
                 </span>
               </div>
             </div>
@@ -63,17 +65,17 @@ const Footer = () => {
                   eHelp@gmail.com
                 </a>
                 <div className="social-icons d-flex align-items-center gap-30">
-                  <a className='text-white' href="">
-                    <BsLinkedin className='fs-4'/>
+                  <a className="text-white" href="">
+                    <BsLinkedin className="fs-4" />
                   </a>
-                  <a className='text-white' href="">
-                    <BsInstagram className='fs-4'/>
+                  <a className="text-white" href="">
+                    <BsInstagram className="fs-4" />
                   </a>
-                  <a className='text-white' href="">
-                  <BsYoutube className='fs-4'/>
+                  <a className="text-white" href="">
+                    <BsYoutube className="fs-4" />
                   </a>
-                  <a className='text-white' href="">
-                    <BsGithub className='fs-4'/>
+                  <a className="text-white" href="">
+                    <BsGithub className="fs-4" />
                   </a>
                 </div>
               </div>
@@ -81,11 +83,21 @@ const Footer = () => {
             <div className="col-3">
               <h4 className="text-white mb-0">Information</h4>
               <div className="footer-links d-flex flex-column">
-                <Link className="text-white py-2 mb-1">privacy policy</Link>
-                <Link className="text-white py-2 mb-1">Refund policy</Link>
-                <Link className="text-white py-2 mb-1">Shopping policy</Link>
-                <Link className="text-white py-2 mb-1">terms & Condition</Link>
-                <Link className="text-white py-2 mb-1">Blogs</Link>
+                <Link to="/privercy-Police" className="text-white py-2 mb-1">
+                  privacy policy
+                </Link>
+                <Link to="/Refund-Police" className="text-white py-2 mb-1">
+                  Refund policy
+                </Link>
+                <Link to="/Shipping-Police" className="text-white py-2 mb-1">
+                  Shipping policy
+                </Link>
+                <Link to="/Term-Condition" className="text-white py-2 mb-1">
+                  terms & Condition
+                </Link>
+                <Link to="/blog" className="text-white py-2 mb-1">
+                  Blogs
+                </Link>
               </div>
             </div>
             <div className="col-3">
