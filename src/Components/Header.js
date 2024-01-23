@@ -2,6 +2,11 @@ import React from 'react'
 import { NavLink,Link } from 'react-router-dom'
 import {BsSearch} from 'react-icons/bs'
 import "./Responcive.css";
+import compare from "../images/compare.svg";
+import wish from "../images/wishlist.svg";
+import user from "../images/user.svg";
+import cart from "../images/cart.svg";
+import menu from "../images/menu.svg";
 
 const Header = () => {
   return (
@@ -55,7 +60,7 @@ const Header = () => {
                     to="/compareProduct"
                     className="d-flex aling-items-center gap-10 text-white"
                   >
-                    <img src="images/compare.svg" alt="compare" />
+                    <img src={compare} alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Products
                     </p>
@@ -66,7 +71,7 @@ const Header = () => {
                     to="/Wishlist"
                     className="d-flex aling-items-center gap-10 text-white"
                   >
-                    <img src="images/wishlist.svg" alt="wishlist" />
+                    <img src={wish} alt="wishlist" />
                     <p className="mb-0">
                       Favourite <br /> Wishlist
                     </p>
@@ -77,7 +82,7 @@ const Header = () => {
                     to="/login"
                     className="d-flex aling-items-center gap-10 text-white"
                   >
-                    <img src="images/user.svg" alt="user" />
+                    <img src={user} alt="user" />
                     <p className="mb-0">
                       Login <br /> My Account
                     </p>
@@ -85,10 +90,10 @@ const Header = () => {
                 </div>
                 <div>
                   <Link
-                    to="/compareProduct"
+                    to="/cart"
                     className="d-flex aling-items-center gap-10 text-white"
                   >
-                    <img src="images/cart.svg" alt="cart" />
+                    <img src={cart} alt="cart" />
                     <div className="d-flex flex-column">
                       <span className="badge bg-white text-dark">0</span>
                       <p className="mb-0">$ 100</p>
@@ -114,7 +119,7 @@ const Header = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src="images/menu.svg" alt="menu" />
+                      <img src={menu} alt="menu" />
                       <span className="me-5 d-inline-block">
                         Shop Categories
                       </span>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .categories {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 100px; /* Adjust the size of the circle as needed */
+  height: 100px; /* Adjust the size of the circle as needed */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire circle */
+}
+
+.text {
+  margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="categories d-flex align-items-center flex-wrap justify-content-between">
+        <div class="category">
+            <div class="circle">
+                <img src="camera.jpg" alt="camera" />
+            </div>
+            <div class="text">
+                <h6>Cameras</h6>
+                <p>10 items</p>
+            </div>
+        </div>
+</body>
+</html>

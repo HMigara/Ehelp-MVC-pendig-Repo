@@ -19,6 +19,8 @@ import ShippingPolice from './Pages/ShippingPolice';
 import TermAndCondition from './Pages/TermAndCondition';
 import PrivercyPolice from './Pages/PrivercyPolice';
 import SingleProduct from './Pages/SingleProduct';
+import Cart from './Pages/Cart';
+import Checkout from './Pages/Checkout';
 
 
 
@@ -38,6 +40,8 @@ function App() {
             <Route path="compareProduct" element={<CompareProduct />} />
             <Route path="Wishlist" element={<WishList />} />
             <Route path="login" element={<Login />} />
+            <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="forgot-password" element={<ForgotPassword />} />
             <Route path="singup" element={<Singup />} />
             <Route path="resetpassword" element={<ResetPassword />} />
