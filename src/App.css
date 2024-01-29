@@ -844,5 +844,16 @@ font-size: 18px;color: #1c1c1b;
   font-size: 14px;
   color: #1c1c1b;
 }
-/* cart pagee nd */
+/* cart pagee end */
 
+/* shipping page */
+.total{
+  font-size: 14px;
+  color: #1c1c1b;
+}
+
+.total-price{
+  font-size: 16px;
+  color: #777777;
+}
+/* shipping page end */
